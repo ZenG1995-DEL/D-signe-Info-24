@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ma Page Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Designe de l'information</h1>
-    <p>exercice de cours</p>
-    <p>Dans le cadre de la formation</p>
-    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
-    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme
-    assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
-    Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, 
-    sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles
-    Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications 
-    de mise en page de texte, comme Aldus PageMaker.</p>
-    <img src="sidy.jpg" alt="">
-    <a href="https://www.google.com/search?sca_esv=426d1894efaa3de5&sca_upv=1&sxsrf=ADLYWILkcXOBsrDirgQzgmXToMzTFuqzvg:1726747586840&q=Archives+photos&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7daGtYstpXpxPF1kru9OHbjnLtqN1GWRhPU77brd9DG8x9Yj-Y-pKTOZXV_-F2TR-a-ysLPzg3ERwLBjO9aTBvGaUL_EyWa4tiWvakxXcsr9RNsIym2IWbMdih0qNT581Q-xkTxg&sa=X&ved=2ahUKEwil7p6E_M6IAxVFTqQEHUSXMSAQxKsJegQIaBAB&ictx=0&biw=1536&bih=730&dpr=1.25#vhid=eGfXJlle8WgGdM&vssid=l">kjkjkjjjkjkj</a>
-    <p>l'initiation à la création de page web</p>
-    <img src="lamine.jpg" alt="">
 
+<header>
+    <h1>Destination sénégal</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Bienvenu au SENEGAL</h2>
+        <p>La langue officielle du Sénégal est le français. Un pays  multilingue avec plusieurs langues nationales dont le Wolof, le Pulaar, le Mandingue, le Sérère, le Diola entre autres. Le franc CFA est la monnaie officielle du Sénégal avec une convertibilité facile en Dollar, Livre Sterling, le Yuan et l’Euro. La parité est fixe avec l’Euro:1€ = 655,957 FCFA. </p>
+    </section>
+
+    <section class="gallery">
+        <h2>Ma Galerie d'Images</h2>
+        <img src="Alpha.jpg" alt="Image 1">
+        <img src="Laye.jpg" alt="Image 2">
+        <img src="Bass.jpg" alt="Image 3">
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
+</footer>
 
 </body>
-</html> 
+</html>
