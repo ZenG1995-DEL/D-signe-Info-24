@@ -3,63 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Page Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            background-color: #4CAF50;
-            color: yellow;
-            padding: 10px 0;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        .gallery {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .gallery img {
-            width: 30%;
-            margin: 10px 0;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-        }
-    </style>
+    <title>Destination Sénégal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#section1">Accueil</a></li>
+                <li><a href="#section2">À Propos</a></li>
+                <li><a href="#section3">Galerie</a></li>
+                <li><a href="#section4">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Destination sénégal</h1>
-</header>
+    <section id="section1">
+        <h1>Bienvenue au SENEGAL</h1>
+        <p>Le Sénégal est un pays situé à l'extrémité ouest de l'Afrique, bordé par l'océan Atlantique à l'ouest, le Mali à l'est,<br> la Mauritanie au nord et la Guinée et la Guinée-Bissau au sud. <br>Sa capitale, Dakar, est une ville dynamique connue pour sa culture riche et son histoire. <br>
 
-<main>
-    <section>
-        <h2>Bienvenu au SENEGAL</h2>
-        <p>La langue officielle du Sénégal est le français. Un pays  multilingue avec plusieurs langues nationales dont le Wolof, le Pulaar, le Mandingue, le Sérère, le Diola entre autres. Le franc CFA est la monnaie officielle du Sénégal avec une convertibilité facile en Dollar, Livre Sterling, le Yuan et l’Euro. La parité est fixe avec l’Euro:1€ = 655,957 FCFA. </p>
+            Culture et Traditions
+            Le Sénégal est célèbre pour sa diversité culturelle, influencée par des ethnies variées, <br>dont les Wolofs, les Sérères et les Peuls. La musique sénégalaise, <br>notamment le mbalax, le sabar et le hip-hop, est reconnue dans le monde entier grâce à des artistes comme Youssou N'Dour. <br>Le pays est également réputé pour ses festivals colorés, ses danses traditionnelles et son artisant. <br>
+            
+            Gastronomie
+            La cuisine sénégalaise est riche et variée, avec des plats emblématiques comme le thiéboudienne (riz au poisson) et le yassa (poulet ou poisson mariné au citron et aux oignons). <br>Le pays est aussi connu pour son thé à la menthe, qui est souvent servi lors des visites.</p>
     </section>
 
-    <section class="gallery">
-        <h2>La Térangua Sénégalaise</h2>
-        <img src="Alpha.jpg" alt="Image 1">
-        <img src="Laye.jpg" alt="Image 2">
-        <img src="Bass.jpg" alt="Image 3">
+    <section id="apropos">
+        <h2>À Propos du Sénégal</h2>
+        <p>Le Sénégal est un pays d'Afrique de l'Ouest, connu pour sa richesse culturelle, son histoire fascinante et ses paysages diversifiés. <br> Bordé par l'océan Atlantique à l'ouest, il partage des frontières avec la Mauritanie, le Mali, la Guinée et la Guinée-Bissau.</p>
+        
+        <p>La capitale, Dakar, est un centre vibrant d'activités artistiques et musicales, célèbre pour sa scène musicale dynamique, en particulier le mbalax. Le pays est également le berceau de nombreux festivals qui célèbrent la culture sénégalaise, la danse et l'artisanat.</p>
+        
+        <p>La cuisine sénégalaise est délicieuse et variée, avec des plats emblématiques tels que le thiéboudienne (riz au poisson) et le yassa (poulet mariné). Le thé à la menthe est une tradition essentielle, symbolisant l'hospitalité sénégalaise.</p>
+        
+        <p>Avec sa nature époustouflante, du parc national de Niokolo-Koba aux plages de la Petite Côte, le Sénégal offre une multitude d'opportunités pour les amoureux de la nature et de l'aventure.</p>
+        
+        <p>Engagé en faveur de la démocratie, le Sénégal est souvent perçu comme un modèle de stabilité en Afrique de l'Ouest. Ses habitants, connus pour leur chaleur et leur hospitalité, font du Sénégal une destination accueillante pour tous.</p>
     </section>
-</main>
 
-<footer>
-    <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
-</footer>
+    <section id="section3">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="Laye.jpg" alt="Photo 1" width="400" height="300">
+            <img src="Bass.jpg" alt="Photo 2" width="400" height="300">
+            <img src="Alpha.jpg" alt="Photo 3" width="400" height="300">
+        </div>
+    </section>
 
-</body>
-</html>
+    <section id="section4">
+        <h2>Vidéo</h2>
+        <video controls width="400" height="300">
+            <source src="vidéo" type="video/mp4">
+            Ton navigateur ne supporte pas la vidéo.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2024SENGHOR Sidy Lamine. Tous droits réservés.</p>
+    </footer>
