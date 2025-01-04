@@ -1,24 +1,4 @@
 
-1 sur 4 893
-Le travail Ereyes
-Boîte de réception
-
-Bassirou Cisse
-Pièces jointes18:27 (il y a 2 heures)
-Bonsoir les gars, Je vous envoie en pièce jointe un fichier ZIP contenant la page web que j'ai créée pour le travail de Reyes. Vous pouvez extraire le fichier p
-
-Sidy Senghor
-20:09 (il y a 27 minutes)
-https://meet.google.com/tmh-habr-akb Master 2 Gestion stratégique de l'informationen alternance à l'ONF au poste de Gestionnaire de l'information. Université Pa
-
-Bassirou Cisse
-Pièces jointes
-20:30 (il y a 6 minutes)
-À moi
-
-
- 32 pièces jointes
-  • Analyse effectuée par Gmail
 <!DOCTYPE html>
 <html lang="fr">
 <head>
